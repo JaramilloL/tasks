@@ -1,0 +1,13 @@
+//creacion del json que sera de ayuda como backend
+{
+    "tasks": [
+        {
+            "id": 1,
+            "name": "task 1",
+            "description": "this my first task",
+            "type": "homeWork",
+            "priority": "medium",
+            "created": "2015-12-01"
+        }
+    ]
+}
