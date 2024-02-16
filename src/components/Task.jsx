@@ -67,7 +67,7 @@ const Task = () => {
         />
         <label htmlFor="floatingInput">Name of task</label>
       </div>
-      <p className="text-danger">{errors?.nameTask?.message}</p>
+      <p className="text-danger text-center">{errors?.nameTask?.message}</p>
 
       <div className="form-floating">
         <textarea
@@ -84,7 +84,7 @@ const Task = () => {
         />
         <label htmlFor="floatingDescription">Description</label>
       </div>
-      <p className="text-danger">{errors?.description?.message}</p>
+      <p className="text-danger text-center">{errors?.description?.message}</p>
 
       <div className="form-floating">
         <select
@@ -104,7 +104,7 @@ const Task = () => {
           <option value="Work">Work</option>
         </select>
       </div>
-      <p className="text-danger">{errors?.type?.message}</p>
+      <p className="text-danger text-center">{errors?.type?.message}</p>
 
       <div className="form-floating">
         <select
@@ -124,7 +124,7 @@ const Task = () => {
           <option value="Easi">Easi</option>
         </select>
       </div>
-      <p className="text-danger">{errors?.priority?.message}</p>
+      <p className="text-danger text-center">{errors?.priority?.message}</p>
 
       <div className="form-floating">
         <input
@@ -139,7 +139,7 @@ const Task = () => {
           })}
         />
       </div>
-      <p className="text-danger">{errors?.date?.message}</p>
+      <p className="text-danger text-center">{errors?.date?.message}</p>
 
       <div className="d-flex justify-content-center align-content-center align-items-center">
         <input type="submit" className="btn btn-primary" value={"Create"}/>
