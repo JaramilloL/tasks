@@ -12,6 +12,6 @@ export const getTask = async () => {
   const result = await baseUrl.get("/");
   return result.data; //result.data trae solo la data del json
 };
-export const postTask = (task) => baseUrl.post("/", task);
-export const deleteTask = (id) => baseUrl.get(`/${id}`);
-export const putTask = (product) => baseUrl.get(`/${product.id}`, product);
+export const postTask = async(task) => await baseUrl.post("/", task);
+export const deleteTask = (id) => baseUrl.delete(`/${id}`);
+export const putTask = (product) => baseUrl.put(`/${product.id}`, product);
