@@ -1,12 +1,20 @@
 {
-    "tasks": [
-        {
-            "id": 1,
-            "name": "task 1",
-            "description": "this my first task",
-            "type": "homeWork",
-            "priority": "medium",
-            "created": "2015-12-01"
-        }
-    ]
+  "tasks": [
+    {
+      "id": "1",
+      "name": "task 1",
+      "description": "this my first task",
+      "type": "homeWork",
+      "priority": "medium",
+      "created": "2015-12-01"
+    },
+    {
+      "id": "f019cb6b-2ee0-49d3-b2cf-1a69a2346ece",
+      "nameTask": "tarea 2",
+      "description": "esta es la segunda descripcion",
+      "type": "Homework",
+      "priority": "Easi",
+      "created": "2024-02-16T10:01"
+    }
+  ]
 }
